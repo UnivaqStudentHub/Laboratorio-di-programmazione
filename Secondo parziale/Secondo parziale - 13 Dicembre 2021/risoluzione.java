@@ -10,7 +10,6 @@ ii) Occorre restituire false non appena si trova la prima riga a[i] che non sodd
 
 public static boolean es1(String[][]a. char[]c, int k){
     int cont = new int[a.length];
-    int[] cont = {0,0,0};
     for(int i = 0; i<a.length;i++) {
         for(int j = 0, j<a[i].length && cont[i] = 0,  j++) {
             if(a[i][j].length<k && a[i][j].charAt[0] == c[i]) {
